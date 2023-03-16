@@ -14,11 +14,11 @@ public class Factorial {
 	            return;
 	        }
 	        
-	        int result = factorial(num);
+	        long result = factorial(num);
 	        System.out.println("The factorial of " + num + " is " + result);
 	    }
 	    
-	    public static int factorial(int n) {
+	    public static long factorial(int n) {
 	        if (n == 0 || n == 1) {
 	            return 1;
 	        } else {
